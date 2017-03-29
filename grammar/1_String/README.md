@@ -1,11 +1,11 @@
 
-#String 类：
+# String 类：
 
 下面介绍一些String类中定义的方法。以下所有出现的str或者str1，str2...都为string类定义的对象。
 
 ---
 
-##一、字符串的连接：
+## 一、字符串的连接：
 
 **1.** 在 string 类中，运算符 '+' 被重载，在两个字符串之间使用 '+' 结果将返回将两个字符串首尾相接的字符串。
 
@@ -42,8 +42,8 @@ int main() {
 **E.g.** 
 
 ```cpp
-# include <iostream>
-# include <string>
+#include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -58,7 +58,7 @@ int main() {
 
 ---
 
-##二、字符串长度
+# 二、字符串长度
 
 使用 length 或 size 方法
 
@@ -122,7 +122,7 @@ int main() {
 
 ---
 
-##四、字符串中查找子串
+## 四、字符串中查找子串
 
 **1.** 使用 find 方法
 
@@ -270,7 +270,7 @@ int main() {
 
 ---
 
-##五、字符串特定字符删除
+## 五、字符串特定字符删除
 
 采用了 erase 方法
 
@@ -303,7 +303,7 @@ int main() {
 
 ---
 
-##六、字符串替换
+## 六、字符串替换
 
 使用 replace 方法
 
@@ -337,7 +337,7 @@ int main() {
 
 ---
 
-##七、字符串插入
+## 七、字符串插入
 
 使用 insert 方法
 
